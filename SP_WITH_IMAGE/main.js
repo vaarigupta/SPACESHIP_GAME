@@ -12,11 +12,11 @@ $(document).ready(function()
   var spaceship = $("#spaceship");
   spaceship.css(
 {
-	width :"200px",
-	height :"140px",
+	width :"250px",
+	height :"160px",
 	position :"absolute",
-	left : "100px",
-	top : "100px"
+	right : 0,
+	bottom:0
 
 })
 
