@@ -1,4 +1,7 @@
 # SPACESHIP_GAME
+
+![Spaceship](https://github.com/vaarigupta/SPACESHIP_GAME/blob/master/Screenshot_2018-07-15%20SpaceShip.png)
+
  I have created a basic game in which a spaceship starts moving on pressing the arrow keys 
  Arrow Keys :-
 *  **Up - Moves Up**
