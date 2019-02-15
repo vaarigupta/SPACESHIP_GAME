@@ -1,0 +1,22 @@
+{
+  "name": "spaceship_game",
+  "version": "1.0.0",
+  "description": "![Spaceship](https://github.com/vaarigupta/SPACESHIP_GAME/blob/master/Screenshot_2018-07-15%20SpaceShip.png)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaarigupta/SPACESHIP_GAME.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaarigupta/SPACESHIP_GAME/issues"
+  },
+  "homepage": "https://github.com/vaarigupta/SPACESHIP_GAME#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

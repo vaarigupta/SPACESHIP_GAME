@@ -1,14 +1,5 @@
-// console.log($)
-
-// $("body").css(
-// {
-// 	"background-color": "black"
-// })
-
 $(document).ready(function()
 {
-	
-
   var spaceship = $("#spaceship");
   spaceship.css(
 {
@@ -21,15 +12,15 @@ $(document).ready(function()
 })
 
   var key =
-  {  
+  {
   	left : 37,
   	top : 38 ,
   	right : 39 ,
   	bottom : 40
-  	
+
   }
 
-var direction = 
+var direction =
 {
 	left : false,
   	top : false ,
@@ -41,7 +32,7 @@ $(document).on("keydown",function(e)
 {
 	if(e.keyCode === key.left )
 	{
-      
+
       direction.left = true;
 
 	}
@@ -63,7 +54,7 @@ $(document).on("keyup",function(e)
 {
 	if(e.keyCode === key.left )
 	{
-      
+
       direction.left = false;
 
 	}
@@ -95,23 +86,23 @@ function move()
 	{
 
 		spaceship.css({
-			top : spaceship.position().top - 10 
+			top : spaceship.position().top - 10
 		})
-		
+
 	}
 	if(direction.right)
-	{  
+	{
 		spaceship.css({
 			left : spaceship.position().left + 10
 		})
-		
+
 	}
 	if(direction.bottom)
 	{
 		spaceship.css({
 			top : spaceship.position().top + 10
 		})
-		
+
 	}
 }
 
