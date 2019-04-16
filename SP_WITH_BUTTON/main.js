@@ -8,11 +8,6 @@ var key = {
 }
 $(document).ready(function()
 {  var sp = $("#space");
-	$(".back").css(
-    {
-
-	"background-color":"#f2aaaa"
-    })
     
 	sp.css(
 	{
