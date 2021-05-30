@@ -1,6 +1,6 @@
 # SPACESHIP_GAME
 
-  ![Spaceship](spaceshuttle.png)
+  ![Spaceship](img/spaceshuttle.png)
 
 To run and view the project :
 Makes sure you have  have node.js and npm installed in your system. Refer here for setup on [ubuntu](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/) and See [here](https://nodejs.org/en/) for more information.
